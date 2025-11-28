@@ -1,0 +1,91 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1200 >>
+stream
+BT
+/F1 24 Tf
+50 750 Td
+(ARAVIND GM) Tj
+0 -30 Td
+/F1 12 Tf
+(Full Stack Developer & AI/ML Enthusiast) Tj
+0 -40 Td
+/F1 14 Tf
+(CONTACT INFORMATION) Tj
+0 -20 Td
+/F1 10 Tf
+(Email: aravindgm.dev@gmail.com) Tj
+0 -15 Td
+(Phone: +91-XXXXXXXXXX) Tj
+0 -15 Td
+(GitHub: github.com/aravind-gm) Tj
+0 -15 Td
+(LinkedIn: linkedin.com/in/gm-aravind/) Tj
+0 -40 Td
+/F1 14 Tf
+(PROFESSIONAL SUMMARY) Tj
+0 -20 Td
+/F1 10 Tf
+(Full Stack Developer with expertise in React, Next.js, Python, and FastAPI.) Tj
+0 -15 Td
+(AI/ML enthusiast pursuing B.Tech in Computer Science Engineering at Jain University.) Tj
+0 -15 Td
+(Passionate about building scalable web applications and intelligent solutions.) Tj
+0 -40 Td
+/F1 14 Tf
+(TECHNICAL SKILLS) Tj
+0 -20 Td
+/F1 10 Tf
+(Frontend: React, Next.js, TypeScript, Tailwind CSS, Framer Motion) Tj
+0 -15 Td
+(Backend: Python, FastAPI, REST APIs, Supabase, PostgreSQL) Tj
+0 -15 Td
+(AI/ML: OpenCV, Scikit-learn, Face Recognition, Machine Learning) Tj
+0 -15 Td
+(Tools: Git, GitHub, VS Code, Docker, Vercel) Tj
+0 -40 Td
+/F1 14 Tf
+(EDUCATION) Tj
+0 -20 Td
+/F1 10 Tf
+(B.Tech in Computer Science Engineering - AI/ML Specialization) Tj
+0 -15 Td
+(Jain University, Bangalore | 2023 - 2027) Tj
+0 -40 Td
+/F1 14 Tf
+(PROJECTS) Tj
+0 -20 Td
+/F1 10 Tf
+(15+ Projects including Facial Recognition System, E-commerce Platforms, and IoT Solutions) Tj
+0 -15 Td
+(3x Hackathon Participant with Recognition) Tj
+0 -15 Td
+(98% Accuracy in ML Models) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001490 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1560
+%%EOF
