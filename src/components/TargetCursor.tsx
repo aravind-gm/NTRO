@@ -151,10 +151,7 @@ const TargetCursor = ({
           elementUnderMouse.closest(targetSelector) === activeTarget);
       if (!isStillOverTarget) {
         if (currentLeaveHandler) {
-          currentLeaveHandler.call(
-            activeTarget as Element,
-            new MouseEvent("mouseleave")
-          );
+          currentLeaveHandler();
         }
       }
     };
