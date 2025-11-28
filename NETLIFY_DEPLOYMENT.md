@@ -5,6 +5,7 @@
 ### Option 1: Connect via Netlify UI (Recommended)
 
 1. **Push to GitHub**
+
    ```bash
    git remote add origin https://github.com/YOUR_USERNAME/portfolio.git
    git branch -M main
@@ -22,16 +23,19 @@
 ### Option 2: Deploy via Netlify CLI
 
 1. **Install Netlify CLI**
+
    ```bash
    npm install -g netlify-cli
    ```
 
 2. **Login to Netlify**
+
    ```bash
    netlify login
    ```
 
 3. **Deploy**
+
    ```bash
    netlify deploy
    ```
@@ -44,6 +48,7 @@
 ## Build Configuration
 
 The `netlify.toml` file contains:
+
 - **Build Command**: `npm run build`
 - **Publish Directory**: `.next`
 - **Next.js**: Auto-optimized for Netlify
@@ -51,6 +56,7 @@ The `netlify.toml` file contains:
 ## Environment Variables (if needed)
 
 If your project uses environment variables:
+
 1. Go to Site Settings → Build & Deploy → Environment
 2. Add your environment variables
 3. Redeploy the site
@@ -82,15 +88,18 @@ If your project uses environment variables:
 ## Troubleshooting
 
 **Build fails?**
+
 - Check that all dependencies are installed: `npm install`
 - Verify Node.js version matches: `node --version` (should be 18+)
 - Clear cache: `npm cache clean --force`
 
 **Site shows 404 errors?**
+
 - Ensure `netlify.toml` redirects are configured
 - Clear browser cache (Ctrl+Shift+Delete)
 
 **Performance issues?**
+
 - Check Netlify Analytics
 - Optimize images if added
 - Reduce particle count in HeroSection if needed
