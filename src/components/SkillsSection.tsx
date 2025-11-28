@@ -109,15 +109,6 @@ const skillsData: Skill[] = [
   },
 ];
 
-const categories = [
-  "Frontend",
-  "Backend",
-  "Database",
-  "AI/ML",
-  "Tools",
-  "Core",
-];
-
 export default function SkillsSection() {
   const containerVariants = {
     hidden: { opacity: 0 },
