@@ -35,5 +35,8 @@
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.0"
+  },
+  "npmConfig": {
+    "legacy-peer-deps": true
   }
 }
