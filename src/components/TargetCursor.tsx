@@ -26,7 +26,7 @@ const TargetCursor = ({
     x: number;
     y: number;
   }> | null>(null);
-  const tickerFnRef = useRef<() => void | null>(null);
+  const tickerFnRef = useRef<(() => void) | null>(null);
   const activeStrengthRef = useRef({ current: 0 });
 
   const isMobile = useMemo(() => {
