@@ -71,13 +71,15 @@ const TargetCursor = ({
     cornersRef.current = cursor.querySelectorAll(".target-cursor-corner");
 
     let activeTarget: Element | null = null;
-    let currentLeaveHandler: ((this: Element, ev: MouseEvent) => any) | null =
-      null;
+    let currentLeaveHandler: (() => void) | null = null;
     let resumeTimeout: NodeJS.Timeout | null = null;
 
     const cleanupTarget = (target: Element) => {
       if (currentLeaveHandler) {
-        target.removeEventListener("mouseleave", currentLeaveHandler);
+        target.removeEventListener(
+          "mouseleave",
+          currentLeaveHandler as EventListener
+        );
       }
       currentLeaveHandler = null;
     };
@@ -93,13 +95,11 @@ const TargetCursor = ({
       if (spinTl.current) {
         spinTl.current.kill();
       }
-      spinTl.current = gsap
-        .timeline({ repeat: -1 })
-        .to(cursor, {
-          rotation: "+=360",
-          duration: spinDuration,
-          ease: "none",
-        });
+      spinTl.current = gsap.timeline({ repeat: -1 }).to(cursor, {
+        rotation: "+=360",
+        duration: spinDuration,
+        ease: "none",
+      });
     };
 
     createSpinTimeline();
@@ -298,7 +298,10 @@ const TargetCursor = ({
         cleanupTarget(target);
       };
       currentLeaveHandler = leaveHandler;
-      target.addEventListener("mouseleave", currentLeaveHandler);
+      target.addEventListener(
+        "mouseleave",
+        currentLeaveHandler as EventListener
+      );
     };
 
     window.addEventListener("mouseover", enterHandler, { passive: true });
